@@ -1,95 +1,138 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Sanborg Productions</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanborg Productions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        /* Custom gradient to match the mockup's blueish background */
+        .bg-custom-gradient {
+            background: linear-gradient(180deg, #dbeafe 0%, #bfdbfe 50%, #dbeafe 100%);
+        }
+    </style>
 </head>
-<script src="https://swetrix.org/swetrix.js" defer=""></script>
-<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-<div style="position:absolute;left:50%;overflow:show;">
-<div style="position:absolute;left:-850px;">
-<table id="Table_01" width="1700" height="1100" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-		<td>
-			<img src="images/index_01.jpg" width="361" height="301" alt=""></td>
-		<td>
-			<img src="images/index_02.jpg" width="513" height="301" alt=""></td>
-		<td>
-			<img src="images/index_03.jpg" width="480" height="301" alt=""></td>
-		<td>
-			<img src="images/index_04.jpg" width="346" height="301" alt=""></td>
-	</tr>
-	<tr>
-		<td>
-			<img src="images/index_05.jpg" width="361" height="24" alt=""></td>
-		<td>
-			<img src="images/index_06.jpg" width="513" height="24" alt=""></td>
-		<td>
-			<a href="http://www.vimeo.com/sanborg/videos" border="0"><img src="images/index_07.jpg" width="480" height="24" alt="" border="0"></a></td>
-		<td>
-			<img src="images/index_08.jpg" width="346" height="24" alt=""></td>
-	</tr>
-	<tr>
-		<td>
-			<img src="images/index_09.jpg" width="361" height="123" alt=""></td>
-		<td>
-			<img src="images/index_10.jpg" width="513" height="123" alt=""></td>
-		<td>
-			<img src="images/index_11.jpg" width="480" height="123" alt=""></td>
-		<td>
-			<img src="images/index_12.jpg" width="346" height="123" alt=""></td>
-	</tr>
-	<tr>
-		<td>
-			<img src="images/index_13.jpg" width="361" height="24" alt=""></td>
-		<td>
-			<img src="images/index_14.jpg" width="513" height="24" alt=""></td>
-		<td>
-			<a href="mailto:gbank@sanborg.com" border="0"><img src="images/index_15.jpg" width="480" height="24" alt="" border="0"></a></td>
-		<td>
-			<img src="images/index_16.jpg" width="346" height="24" alt=""></td>
-	</tr>
-	<tr>
-		<td>
-			<img src="images/index_17.jpg" width="361" height="172" alt=""></td>
-		<td>
-			<img src="images/index_18.jpg" width="513" height="172" alt=""></td>
-		<td>
-			<a href="https://www.google.ca/maps/place/2645+Battleford+Rd,+Mississauga,+ON+L5N+3R8/@43.5850428,-79.7520864,17z/data=!3m1!4b1!4m5!3m4!1s0x882b6a71c86d6bbd:0x9352f7c29843c55c!8m2!3d43.5850428!4d-79.7498977"><img src="images/index_19.jpg" width="480" height="172" alt="" border="0"></a></td>
-		<td>
-			<img src="images/index_20.jpg" width="346" height="172" alt=""></td>
-	</tr>
-	<tr>
-		<td>
-			<img src="images/index_21.jpg" width="361" height="30" alt=""></td>
-		<td>
-			<img src="images/index_22.jpg" width="513" height="30" alt=""></td>
-		<td>
-			<img src="images/index_23.jpg" width="480" height="30" alt=""></td>
-		<td>
-			<img src="images/index_24.jpg" width="346" height="30" alt=""></td>
-	</tr>
-	<tr>
-		<td>
-			<img src="images/index_25.jpg" width="361" height="426" alt=""></td>
-		<td>
-			<img src="images/index_26.jpg" width="513" height="426" alt=""></td>
-		<td>
-			<img src="images/index_27.jpg" width="480" height="426" alt=""></td>
-		<td>
-			<img src="images/index_28.jpg" width="346" height="426" alt=""></td>
-	</tr>
-</table>
-</div>
-</div>
+<body class="bg-custom-gradient min-h-screen flex items-center justify-center p-4 md:p-8">
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    swetrix.init('fbsqEHsGCSBv',{
-		apiURL: 'https://api.viewly.net/log'
-	})
-	  
-    swetrix.trackViews()
-  })
-</script>
+    <!-- Main Card Container -->
+    <main class="bg-gray-100 w-full max-w-5xl shadow-2xl rounded-lg overflow-hidden relative">
+
+        <!-- Header Section -->
+        <header class="relative bg-gradient-to-b from-slate-100 via-slate-200 to-slate-300 pt-8 px-8 pb-16 md:pb-24 overflow-hidden">
+
+            <!-- Logo -->
+            <div class="flex items-center gap-3 mb-8 relative z-10">
+                <!-- CSS Logo Approximation -->
+
+                <div class="leading-tight">
+                    <h1 class="text-3xl font-normal text-gray-600 tracking-tight">sanborg</h1>
+                    <p class="text-xs font-bold text-gray-500 tracking-[0.2em] uppercase">Productions</p>
+                </div>
+            </div>
+
+            <!-- Hero Content -->
+            <div class="relative z-10 grid grid-cols-1 md:grid-cols-12 gap-8">
+                <div class="md:col-span-7 space-y-1">
+                    <h2 class="text-2xl md:text-4xl font-light text-gray-700 uppercase tracking-widest">Video Production</h2>
+                    <h2 class="text-xl md:text-3xl font-light text-gray-600 uppercase tracking-widest">Event Videography</h2>
+                    <h2 class="text-xl md:text-3xl font-light text-gray-600 uppercase tracking-widest">& Corporate Videos</h2>
+                    <h2 class="text-2xl md:text-4xl font-black text-black uppercase tracking-wide mt-2 " style="color: #286c95">The Total Package</h2>
+                </div>
+            </div>
+
+            <!-- Decorative Camera Image Placeholder -->
+            <!-- Using a placeholder image to represent the camera gear collage -->
+            <div class="hidden md:block absolute top-0 opacity-30 right-0 h-full w-1/2 pointer-events-none">
+                <img src="/images/camera-collage.png"
+                     alt="Camera Equipment"
+                     class="absolute object-contain  ">
+            </div>
+            <!-- Mobile Image -->
+            <div class="md:hidden mt-8">
+                <img src="/images/camera-collage.png" alt="Camera Equipment" class="w-full rounded opacity-30">
+            </div>
+        </header>
+
+        <!-- Navigation Bar -->
+        <div class="bg-black text-white py-2 px-4 md:px-8 flex justify-end items-center relative z-20 shadow-md">
+            <a href="https://vimeo.com/sanborg/videos" target="_blank" rel="noopener noreferrer"
+               class="group flex items-center gap-2 text-xs md:text-sm font-bold uppercase tracking-wider hover:text-blue-400 transition-colors">
+                <span class="text-blue-500 group-hover:text-blue-300" style="color: #286c95">▶</span> Check us out on Vimeo
+            </a>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="p-8 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-12 bg-[#e8e8e8]">
+
+            <!-- Services Column -->
+            <section>
+                <h3 class="text-xl font-bold text-black border-b border-gray-400 pb-2 mb-6" style="color: #286c95">Our Services</h3>
+
+                <div class="space-y-6">
+                    <article>
+                        <h4 class="font-bold text-gray-900 text-sm uppercase">Video Production</h4>
+                        <p class="text-gray-600 text-sm">Event Videography, Corporate videos</p>
+                    </article>
+                    <article>
+                        <h4 class="font-bold text-gray-900 text-sm uppercase">Audio</h4>
+                        <p class="text-gray-600 text-sm">Recording Studio, Voice Over</p>
+                    </article>
+                    <article>
+                        <h4 class="font-bold text-gray-900 text-sm uppercase">Photography</h4>
+                        <p class="text-gray-600 text-sm">Corporate and Event Photography</p>
+                    </article>
+                    <article>
+                        <h4 class="font-bold text-gray-900 text-sm uppercase">Web Work</h4>
+                        <p class="text-gray-600 text-sm">Video for Web, Web Design</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Contact Column -->
+            <section>
+                <h3 class="text-xl font-bold text-black border-b border-gray-400 pb-2 mb-6" style="color: #286c95">Contact Us</h3>
+
+                <div class="space-y-4 mb-8">
+                    <div>
+                        <p class="text-2xl font-bold text-gray-900">905-803-1140</p>
+                        <a href="mailto:gbank@sanborg.com" style="color: #286c95" class="text-blue-600 text-sm font-medium  hover:font-semibold flex items-center gap-1">
+                            gbank@sanborg.com <span class="text-xs">▶</span>
+                        </a>
+                    </div>
+
+                    <div class="text-sm text-gray-700">
+                        <p>Suite 1707, 2645 Battleford Rd</p>
+                        <p>Mississauga, ON L5N 3R8</p>
+                        <a href="https://www.google.com/maps?ll=43.585043,-79.749898&z=15&t=m&hl=en-CA&gl=US&mapclient=embed&q=2645+Battleford+Rd+%231707+Mississauga,+ON+L5N+3R8"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="text-blue-600 font-medium hover:underline flex items-center gap-1 mt-1">
+                            Map <span class="text-xs">▶</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Map Visual -->
+                <div class="w-full h-48 bg-gray-200 rounded border border-gray-300 overflow-hidden relative shadow-inner group cursor-pointer">
+                    <!-- Google Maps Embed for Suite 1707, 2645 Battleford Rd, Mississauga, ON L5N 3R8 -->
+                    <iframe
+                        width="100%"
+                        height="100%"
+                        style="border:0; min-height: 12rem;"
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps?q=Suite+1707,+2645+Battleford+Rd,+Mississauga,+ON+L5N+3R8&output=embed">
+                    </iframe>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
